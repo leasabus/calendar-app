@@ -1,0 +1,12 @@
+Pasos para crear un redux
+-creamos la carpeta store
+-Adentro podemos crear las carpetas q queramos para separar funcionalidades
+-Necesitamos el store q hace un configureStore y recibe nuestros slice
+-Creamos un slice con el snippet redux-slice y creamos la configuracion q necesitamos, en este caso el open y close modal
+-Llamamos al slice dentro del store
+-Usamos un Provider en el punto mas alto de nuestra app con el store
+-Como usar el slice con hooks
+-Creamos un hook que llama al metodo en una constante utilizando el useSelector y el state con su name
+-Esta funcion hace un return del metodo
+-Por ultimo utilizamos el hook en el componente donde lo necesitamos, por ejemplo en el calendarModal , reemplazamos el hook q habiamos creado para abrir y cerrar el modal y en su lugar utilizamos el isDateModalOpen creado anteriormente.
+-Asignamos los metodos a las funciones correspondientes
